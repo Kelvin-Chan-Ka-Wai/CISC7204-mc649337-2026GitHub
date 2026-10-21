@@ -8,8 +8,10 @@ the earlier **Assignment 01** and the **Practice 09** portfolio.
 | Work | Folder | What it is |
 |---|---|---|
 | Assignment 02 | [`cisc7204-Assgn02-2026-mc649337/`](cisc7204-Assgn02-2026-mc649337/) | 5 modules, 15 labs: notebooks, screenshots of every task and Dash project spaces |
-| Assignment 01 | [`cisc7204-Assgn01-2026-mc649337/`](cisc7204-Assgn01-2026-mc649337/) | first assignment (Canadian immigration data) |
+| Assignment 01 | [`cisc7204-Assgn01-2026-mc649337/`](cisc7204-Assgn01-2026-mc649337/) | 6 modules: importing data, wrangling, EDA, model development and evaluation, plus the pair preliminary project |
 | Practice 09 | [`practice-09-ds-portfolio/`](practice-09-ds-portfolio/) | data science portfolio project |
+
+Both assignment folders have their own `README.md` with the module list and the run instructions.
 
 **Live showcase (GitHub Pages):** <https://kelvin-chan-ka-wai.github.io/CISC7204-mc649337-2026GitHub/>
 
