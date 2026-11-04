@@ -125,8 +125,11 @@ review used a different pair, so no member reviews both assignments.
 Requirements: Python 3.10+ with
 
 ```bash
-python -m pip install pandas numpy matplotlib seaborn folium plotly dash pywaffle wordcloud
+python -m pip install -r requirements.txt
 ```
+
+(`requirements.txt` in this folder pins pandas, numpy, matplotlib, seaborn, folium, plotly,
+dash, pywaffle and wordcloud.)
 
 **Notebooks**
 

@@ -158,8 +158,12 @@ both assignments.
 Requirements: Python 3.10+ with
 
 ```bash
-python -m pip install pandas numpy matplotlib seaborn scikit-learn
+python -m pip install -r requirements.txt
 ```
+
+(`requirements.txt` in this folder pins pandas, numpy, matplotlib, seaborn, scipy and
+scikit-learn; the one-line equivalent is
+`python -m pip install pandas numpy matplotlib seaborn scipy scikit-learn`.)
 
 Unzip the module you want, open its folder in a terminal and start Jupyter:
 
