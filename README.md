@@ -67,9 +67,11 @@ responds to them. The Practice 09 portfolio was reviewed separately by LIU HAIXI
 ### Verification exercise
 
 Before registering, I checked the deployed site: the live URL and both repository URLs return
-HTTP 200, all 60 screenshot images load, and 75 of 76 links resolved. The single failure (a
-relative link to the Assignment 01 folder, which GitHub Pages cannot serve) was fixed in the
-commit *Fix the broken Assignment 01 link and document deployment testing on the live
-showcase*. No passwords, API keys, personal contact data or restricted datasets are exposed.
+HTTP 200 and all 60 screenshot images load. The check found two broken relative links (to the
+Assignment 01 and Practice 09 folders, which GitHub Pages cannot serve); both were replaced
+with public GitHub tree URLs in the commits *Fix the broken Assignment 01 link and document
+deployment testing on the live showcase* and *Fix the remaining Practice 09 directory link so
+every showcase link resolves*. After the fix, every image and every link on the deployed page
+returns 200. No passwords, API keys, personal contact data or restricted datasets are exposed.
 
 Deadline for the registration: 2026DEC05 11:00 pm.
