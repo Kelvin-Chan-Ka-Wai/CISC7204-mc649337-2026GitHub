@@ -82,18 +82,36 @@ regression and `GridSearchCV` · reading model coefficients back into a business
 
 ## Visualisations
 
-Two figures from Module 03; the full set of task screenshots sits inside each module ZIP.
+Five figures taken from the module notebooks; the full set of task screenshots sits inside each
+module ZIP. Every chart states its axes and units, and each caption names the finding it supports.
 
 ![Heatmap of mean price by drive-wheels and body-style](Figures/lab1_11.png)
 
-*Figure 1 - mean price by drive-wheels (vertical) and body-style (horizontal). The colour bar is
-price in USD: rear-wheel-drive two-door and convertible bodies carry the highest means.*
+*Figure 1 - mean price (USD) by drive-wheels (rows) and body-style (columns), Module 03 Lab 01.
+Rear-wheel-drive two-door and convertible bodies carry the highest means.*
+
+![Scatter of price against stroke and box plot of price by body-style](Figures/fig_scatter_boxplot.png)
+
+*Figure 2 - price against stroke with a 95% confidence band (top) and price by body-style (bottom).
+The scatter is almost flat - stroke explains very little - while the box plot separates the
+body-styles clearly, which is why body-style enters the later models and stroke does not.*
 
 ![Regression plots of price against screen size and weight](Figures/lab2_3.png)
 
-*Figure 2 - seaborn regression plots from Module 03 Lab 02: price against screen size (top) and
-price against weight (bottom), each with a 95% confidence band. The bands are wide and the slopes
-shallow, which is exactly why Modules 04-05 add more predictors.*
+*Figure 3 - seaborn regression plots from Module 03 Lab 02 (laptop pricing): price against screen
+size (top) and price against weight (bottom). Both bands are wide and the slopes shallow, which is
+why Modules 04-05 add more predictors.*
+
+![Heatmap of mean laptop price by GPU and CPU cores](Figures/fig_gpu_cpu_heatmap.png)
+
+*Figure 4 - mean price (USD) by GPU type (rows) and number of CPU cores (columns), Module 03 Lab 02.
+Price rises with both, and the effect of the GPU is larger than the effect of the core count.*
+
+![R squared against alpha for training and validation data](Figures/fig_r2_vs_alpha.png)
+
+*Figure 5 - Module 05 Lab 01: R-squared against the ridge penalty alpha, training (red) and
+validation (blue). The training score is flat near 0.86 while the validation score climbs from
+0.47 to 0.57, which is the overfitting gap the regularised model closes.*
 
 ## Datasets
 

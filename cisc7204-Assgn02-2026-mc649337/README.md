@@ -52,22 +52,33 @@ multi-report dashboards · capturing reproducible screenshot evidence per task.
 
 ## Visualisations
 
-Three figures from the modules; every task has its own screenshot under `Module 0X/Screen Shots/`.
+Five figures taken from the modules; every task has its own screenshot under
+`Module 0X/Screen Shots/`. Each chart has a title, axis labels and a caption naming the finding.
 
-![Bar plot of immigration by source country](Module%2003/Screen%20Shots/M03_Lab01_28_Barplot.png)
+![Bar plot of immigration by source country](Figures/fig1_immigration_barplot.png)
 
 *Figure 1 - Module 03 bar plot: the ranking of source countries is dominated by a handful of
-origins, which is why the later waffle and word-cloud views use the same ranking.*
+origins, which is why the later waffle and word-cloud views reuse the same ranking.*
 
-![Flight delay dashboard](Module%2005/Screen%20Shots/M05_F2_dash_01.png)
+![Waffle chart of three Scandinavian totals](Figures/fig2_waffle_chart.png)
 
-*Figure 2 - Module 05 final dashboard (Plotly + Dash): delay counts by hour and carrier, with the
-two report tabs that let a reader switch between the overview and the carrier detail.*
+*Figure 2 - Module 03 waffle chart: Denmark 3,901, Norway 2,327 and Sweden 5,866 immigrants shown
+as unit squares, with the legend and the colour scale visible.*
 
-![Practice dashboard for wildfire activity](Module%2005/Screen%20Shots/M05_P2_dash_01.png)
+![Choropleth map of the same totals](Figures/fig3_choropleth_map.png)
 
-*Figure 3 - Module 05 practice dashboard: burned area by month and region, showing the seasonal
-peak and the small number of regions that account for most of the total.*
+*Figure 3 - Module 03 Lab 02 folium choropleth: the same country totals placed on the world map,
+so the geographic concentration is visible instead of read off a bar.*
+
+![Flight delay dashboard](Figures/fig4_flight_delay_dashboard.png)
+
+*Figure 4 - Module 04 Lab 04 Dash application: delay counts by hour and carrier, with the
+dropdown and the two report tabs that let a reader filter the data.*
+
+![Final automobile dashboard](Figures/fig5_final_dashboard.png)
+
+*Figure 5 - Module 05 final project dashboard (Plotly + Dash): mean price and sales volume by
+make, with the interactive filter panel on the left.*
 
 ## Research question
 
