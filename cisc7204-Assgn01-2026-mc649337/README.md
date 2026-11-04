@@ -10,6 +10,20 @@ exploratory analysis, model development and model evaluation) and the pair preli
 - **Project status:** complete and submitted (Assignment 01, due 2026SEP20). The BONUS portfolio
   registration for this assignment was posted in the Class D registration forum on 2026NOV05.
 
+## Research question
+
+The six modules build one answer: **which attributes of a vehicle actually move its price, and how
+reliably can a linear model predict that price from them?**
+
+- Module 01-02: can the car and laptop datasets be cleaned into a frame that a model can use?
+- Module 03: which attributes correlate with price, and do the correlations survive once the
+  obvious groups (drive-wheels, body-style) are separated?
+- Module 04: how much of the price can a simple, multiple or polynomial regression explain?
+- Module 05: does a regularised, cross-validated model generalise better than a plain fit, and
+  which hyper-parameters does the search actually choose?
+- Pair project: how do recorded road collisions in Cambridgeshire vary by district, month, road
+  surface and weather?
+
 ## What is in this folder
 
 | Path | Content |
