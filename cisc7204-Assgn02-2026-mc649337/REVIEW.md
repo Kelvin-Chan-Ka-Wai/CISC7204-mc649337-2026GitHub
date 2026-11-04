@@ -84,7 +84,7 @@ message so the feedback-to-commit chain is identifiable.
 ## Declaration of AI usage
 
 The deployment check (HTTP status of every image and link) and the write-up of this record were
-prepared with AI assistance (DeepSeek / WorkBuddy AI). The repository contents, the notebooks
+prepared with AI assistance (DeepSeek-V4.1-Flash). The repository contents, the notebooks
 and the screenshots are my own coursework. The two named committee members were assigned to this
 assignment and reviewed the deployment; their findings are recorded above and every corrective
 commit is listed in the table that follows the findings.
