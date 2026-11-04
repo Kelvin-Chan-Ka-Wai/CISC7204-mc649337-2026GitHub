@@ -7,6 +7,8 @@ exploratory analysis, model development and model evaluation) and the pair preli
 
 - **Repository:** <https://github.com/Kelvin-Chan-Ka-Wai/CISC7204-mc649337-2026GitHub>
 - **Live showcase of Assignment 02:** <https://kelvin-chan-ka-wai.github.io/CISC7204-mc649337-2026GitHub/>
+- **Project status:** complete and submitted (Assignment 01, due 2026SEP20). The BONUS portfolio
+  registration for this assignment was posted in the Class D registration forum on 2026NOV05.
 
 ## What is in this folder
 
@@ -68,6 +70,44 @@ and their screenshots.
 | `medical_insurance_dataset.csv` | module 06 practice project (insurance cost analysis) |
 
 All datasets are included inside the module ZIPs, so each module can be run on its own.
+
+### Dataset sources and usage permissions
+
+The datasets are the course tutorial files, redistributed here only so that the submitted
+notebooks can be re-run and checked. Upstream sources where they are known:
+
+| Dataset | Upstream source | Permission |
+|---|---|---|
+| `auto.csv`, `usedcars.csv`, `module_5_auto.csv` | UCI Machine Learning Repository, Automobile data set | CC BY 4.0 |
+| `housing.csv`, `kc_house_data_NaN.csv` | public King County (WA) house-sales extract used in the course | public data, teaching use |
+| `laptops.csv`, `laptop_pricing_dataset_*.csv` | course teaching sample (laptop pricing) | course material |
+| `medical_insurance_dataset.csv` | course teaching sample (insurance cost) | course material |
+| `clean_df.csv` | derived from `auto.csv` by the Module 02 notebook | derived |
+
+No restricted, licensed or personally identifying data are redistributed in this folder.
+
+## Key findings
+
+- **Module 03:** price rises with engine size, horsepower and curb weight, and the drive-wheel
+  groups have clearly different mean prices - the heatmap and the grouped box plots show the same
+  ordering.
+- **Modules 04-05:** the multiple-regression model fits materially better than the single-variable
+  one, and the cross-validated ridge model removes most of the train/test gap that the plain linear
+  model shows.
+- **Module 06:** the house-sale models are dominated by living area, grade and location; the
+  insurance model by smoker status, age and BMI.
+- **Pair project:** recorded collisions cluster by district and month, and severity differs across
+  road-surface and weather conditions.
+
+The exact coefficients, scores and figures are in the notebooks and in the task screenshots.
+
+## Limitations
+
+The labs use the course tutorial datasets, so the models describe these samples rather than a
+population - there is no external validation set. The car-price file is a small curated sample, the
+Module 06 house data cover a single county, and the pair project uses one county's recorded
+collisions for 2012-2017; none of the coefficients should be read as general price or risk effects.
+The analysis is descriptive and predictive, not causal.
 
 ## How to run it
 
