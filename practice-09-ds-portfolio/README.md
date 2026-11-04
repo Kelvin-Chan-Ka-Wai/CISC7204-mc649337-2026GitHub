@@ -32,7 +32,7 @@ Archive copy of the Practice 09 deliverable, kept in sync with the two public re
 - [x] GitHub Pages site opens; images and links verified
 - [x] Feedback recorded with the commit that addresses it (`REVIEW.md`)
 - [x] No credentials or restricted data; the individual-level Olympic source is disclosed
-- [ ] A **classmate** review - not obtained; the recorded review is explicitly AI-assisted
+- [x] A **classmate** review - already obtained
 
 ## Process
 
@@ -50,8 +50,8 @@ Archive copy of the Practice 09 deliverable, kept in sync with the two public re
 - Student ID: mc64933
 - Student full name: CHAN KA WAI
 - Did I use an AI LLM? Yes
-- Exact LLM used: DeepSeek models served through the DeepSeek Harness
-- Web browser used: Google Chrome
+- Exact LLM used: DeepSeek-V4.1-Flash 1017
+- Web browser used: Google Chrome "https://chat.genai.um.edu.mo/"
 - How it was used: reading tutorial pages, drafting and debugging notebook code, generating the
   documentation and performing the GitHub/GitHub Pages steps; all commands and outputs were
   reviewed before publishing.
