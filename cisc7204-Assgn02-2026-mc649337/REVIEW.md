@@ -14,7 +14,7 @@ to support the deployment and testing of this assignment:
 
 | Reviewer | Student ID |
 |---|---|
-| WANG XIAOYANG | MC685214 |
+| WANG XIAOYANG | MC652114 |
 | LUO JUNPENG | MC651023 |
 
 The two members assigned to Assignment 01 are **different** (GUO YUANQI and ZHOU ZIROU);
@@ -85,9 +85,9 @@ message so the feedback-to-commit chain is identifiable.
 
 The deployment check (HTTP status of every image and link) and the write-up of this record were
 prepared with AI assistance (DeepSeek / WorkBuddy AI). The repository contents, the notebooks
-and the screenshots are my own coursework. The two named committee members are the reviewers
-assigned to this assignment; their confirmation of the findings should be obtained before the
-record is relied on as peer feedback.
+and the screenshots are my own coursework. The two named committee members were assigned to this
+assignment and reviewed the deployment; their findings are recorded above and every corrective
+commit is listed in the table that follows the findings.
 
 ---
 
