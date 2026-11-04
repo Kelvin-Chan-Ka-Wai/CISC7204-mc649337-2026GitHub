@@ -109,6 +109,14 @@ Module 06 house data cover a single county, and the pair project uses one county
 collisions for 2012-2017; none of the coefficients should be read as general price or risk effects.
 The analysis is descriptive and predictive, not causal.
 
+## Review and deployment testing
+
+Two members of Class D tested the GitHub Pages deployment of this assignment: **GUO YUANQI
+(MC649062)** and **ZHOU ZIROU (MC648937)**. Their findings - broken directory links, the six module
+archives not being reachable from the live site - and the commit that answers each one are recorded
+in [`REVIEW.md`](REVIEW.md). The assignment 02 review used a different pair, so no member reviews
+both assignments.
+
 ## How to run it
 
 Requirements: Python 3.10+ with
