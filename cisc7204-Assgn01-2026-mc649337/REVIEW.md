@@ -32,17 +32,17 @@ cannot reach or understand.
 | Live showcase URL returns HTTP 200 | Pass |
 | Assignment 01 repository folder URL returns HTTP 200 | Pass |
 | 60 screenshot images on the live site load (HTTP 200) | Pass — 60/60 |
-| 76 internal and external links on the live site resolve | 75 pass, **1 fail** |
-| Assignment 01 link in the *"How it is built"* section | **Fail — HTTP 404** |
+| Links on the live site resolve | **2 fail** (both relative directory paths) |
+| Assignment 01 and Practice 09 links in *"How it is built"* | **Fail — HTTP 404** |
 | Module 01–06 archives reachable from the live site | **Fail — no links** |
 | No passwords, API keys or restricted datasets exposed | Pass |
 
 ## Findings
 
-1. **Broken link (deployment defect).** The *"How it is built"* section linked to
-   `cisc7204-Assgn01-2026-mc649337/`. GitHub Pages does not serve directory listings, so that
-   relative path returned HTTP 404. A reader following the only Assignment 01 link on the live
-   site reached an error page.
+1. **Broken links (deployment defect).** The *"How it is built"* section linked to
+   `cisc7204-Assgn01-2026-mc649337/` and `practice-09-ds-portfolio/`. GitHub Pages does not
+   serve directory listings, so both relative paths returned HTTP 404. A reader following the
+   only Assignment 01 link on the live site reached an error page.
 2. **No Assignment 01 presence on the live site.** The showcase presented five Assignment 02
    module cards and a screenshot gallery, but nothing for Assignment 01. The six module
    archives and the pair preliminary project could only be found by browsing the repository
@@ -56,17 +56,17 @@ cannot reach or understand.
 
 ## Improvement committed in response
 
-The corrective commit is `92a86b2c2451be1f743f94c8c6dd4b7279368eaa` (*Fix the broken Assignment 01 link and document deployment testing on the live showcase*); the hash is recorded here so the feedback-to-commit chain stays resolvable even if the message is reworded.
+The corrective commits are `92a86b2c2451be1f743f94c8c6dd4b7279368eaa` and `19d331740805effc818f40c930fb072334a8e10e` (*Fix the broken Assignment 01 link and document deployment testing on the live showcase*); the hash is recorded here so the feedback-to-commit chain stays resolvable even if the message is reworded.
 
 | Finding | Change | Commit message |
 |---|---|---|
-| 1 | Replaced the 404 directory link with the public GitHub tree URL for the Assignment 01 folder | `Fix the broken Assignment 01 link and document deployment testing on the live showcase` |
+| 1 | Replaced both 404 directory links with public GitHub tree URLs | `Fix the broken Assignment 01 link and document deployment testing on the live showcase` + `Fix the remaining Practice 09 directory link so every showcase link resolves` |
 | 2 & 3 | Added an *Assignment 01* section to the live showcase with six direct module-archive links and the pair preliminary project | same commit |
 | 4 | Added a *Deployment, testing and review* section naming both review committees, the test counts and the correction | same commit |
 | — | Added this review record inside the Assignment 01 folder | `Add the Assignment 01 deployment and testing review record` |
 
-The commit is a genuine change to the deployed `index.html`: the live site now shows both
-assignments, and the previously broken link resolves.
+The commits are genuine changes to the deployed `index.html`: the live site now shows both
+assignments, all 60 images and all links resolve, and the two previously broken paths are gone.
 
 ## Declaration of AI usage
 
