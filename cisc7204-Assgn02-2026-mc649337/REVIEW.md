@@ -33,7 +33,7 @@ mislabelled or hard to read.
 | Assignment 02 repository folder URL returns HTTP 200 | Pass |
 | Five module cards and their *Browse files* links | Pass — 5/5 |
 | 60 screenshot images load (HTTP 200) | Pass — 60/60 |
-| 76 internal and external links resolve | 75 pass, 1 fail (the Assignment 01 link) |
+| Links on the live site resolve | **2 fail** (both relative directory paths) |
 | All screenshots have descriptive `alt` text | **Needs improvement** |
 | Student ID displayed correctly in the author block | **Fail — shown as `mc64933 7`** |
 | Deployment/testing evidence visible on the site | **Fail — not present** |
@@ -44,10 +44,11 @@ mislabelled or hard to read.
 1. **All Assignment 02 artefacts are reachable.** Every module card, every *Browse files*
    link, and all 60 screenshot images returned HTTP 200. The gallery is complete and the
    screenshots are legible at full size. This part of the deployment is sound.
-2. **The only broken link on the site concerns Assignment 01.** The *"How it is built"*
-   section linked to a directory path that GitHub Pages cannot serve (HTTP 404). Because both
-   assignments share one Pages site, this single defect affects the submission as a whole —
-   see the Assignment 01 review record for the correction.
+2. **Two broken links on the shared Pages site.** The *"How it is built"* section linked to
+   the `cisc7204-Assgn01-2026-mc649337/` and `practice-09-ds-portfolio/` directory paths, which
+   GitHub Pages cannot serve (HTTP 404). Because both assignments share one Pages site, these
+   defects affect the submission as a whole — see the Assignment 01 review record for the
+   correction.
 3. **Student ID typo in the author block.** The footer rendered the author as
    `mc64933 7` instead of `mc649337`. The submission is registered under the student number,
    so an incorrectly spaced identifier is worth fixing.
@@ -60,11 +61,11 @@ mislabelled or hard to read.
 
 ## Improvement committed in response
 
-The corrective commit is `92a86b2c2451be1f743f94c8c6dd4b7279368eaa` (*Fix the broken Assignment 01 link and document deployment testing on the live showcase*); the hash is recorded here so the feedback-to-commit chain stays resolvable even if the message is reworded.
+The corrective commits are `92a86b2c2451be1f743f94c8c6dd4b7279368eaa` and `19d331740805effc818f40c930fb072334a8e10e` (*Fix the broken Assignment 01 link and document deployment testing on the live showcase*); the hash is recorded here so the feedback-to-commit chain stays resolvable even if the message is reworded.
 
 | Finding | Change | Commit message |
 |---|---|---|
-| 2 | Fixed the broken Assignment 01 link to the public GitHub tree URL | `Fix the broken Assignment 01 link and document deployment testing on the live showcase` |
+| 2 | Fixed both broken directory links to public GitHub tree URLs | `Fix the broken Assignment 01 link and document deployment testing on the live showcase` + `Fix the remaining Practice 09 directory link so every showcase link resolves` |
 | 3 | Corrected the author block to `mc649337` | same commit |
 | 4 | Added a short human-readable caption to the gallery heading and kept the descriptive filenames | same commit |
 | 5 | Added a *Deployment, testing and review* section with the test counts, both review committees, and a link to this record | same commit |
