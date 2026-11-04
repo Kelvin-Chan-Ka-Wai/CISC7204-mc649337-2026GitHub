@@ -7,7 +7,8 @@ exploratory analysis, model development and model evaluation) and the pair preli
 
 - **Repository:** <https://github.com/Kelvin-Chan-Ka-Wai/CISC7204-mc649337-2026GitHub>
 - **Live showcase of Assignment 02:** <https://kelvin-chan-ka-wai.github.io/CISC7204-mc649337-2026GitHub/>
-- **Project status:** complete and submitted (Assignment 01, due 2026SEP20).
+- **Project status:** complete and submitted (Assignment 01, due 2026SEP20). The BONUS portfolio
+  registration for this assignment was posted in the Class D registration forum on 2026NOV05.
 
 ## What is in this folder
 
@@ -57,6 +58,28 @@ and their screenshots.
 6. **Module 06** - two complete projects: the insurance cost analysis (practice project) and the house
    sales final project, following the full workflow: import the data, wrangle it, explore it, build a
    model and evaluate/refine it.
+
+## Skills demonstrated
+
+pandas loading and cleaning · seaborn and Matplotlib charts (heatmap, box plot, regression plot,
+pair plot) · correlation analysis with SciPy · scikit-learn linear, multiple and polynomial
+regression · pipelines with standardisation · train/test split and cross-validation · ridge
+regression and `GridSearchCV` · reading model coefficients back into a business question.
+
+## Visualisations
+
+Two figures from Module 03; the full set of task screenshots sits inside each module ZIP.
+
+![Heatmap of mean price by drive-wheels and body-style](Figures/lab1_11.png)
+
+*Figure 1 - mean price by drive-wheels (vertical) and body-style (horizontal). The colour bar is
+price in USD: rear-wheel-drive two-door and convertible bodies carry the highest means.*
+
+![Regression plots of price against screen size and weight](Figures/lab2_3.png)
+
+*Figure 2 - seaborn regression plots from Module 03 Lab 02: price against screen size (top) and
+price against weight (bottom), each with a 95% confidence band. The bands are wide and the slopes
+shallow, which is exactly why Modules 04-05 add more predictors.*
 
 ## Datasets
 
@@ -150,3 +173,35 @@ differs across road-surface and weather conditions.
 
 Run the pair notebooks the same way: unzip `data.zip`, `python -m pip install pandas numpy matplotlib
 seaborn`, then `jupyter notebook` and run the analysis notebook from the top.
+
+## Reflection (~200 words)
+
+Assignment 01 taught me that a model is only as good as the question asked of it. The six modules
+move from importing a messy CSV to tuning a regularised regression, and the step that changed my
+practice most was learning to look at the data before modelling it: the Module 03 heatmap showed
+that engine size, horsepower and curb weight move together, which meant a multiple regression on
+all three would not tell me which one mattered. Module 05 then showed the cost of ignoring that -
+a plain linear model fitted the training data well and the test data badly, and cross-validated
+ridge regression closed most of the gap. I also learned to keep the whole path reproducible: every
+notebook runs top to bottom, the datasets ship with the modules, and the pair project keeps a
+verification notebook that recomputes the analysis from the raw files. My next improvement is to
+treat model output as evidence rather than an answer - reporting intervals and residual checks
+alongside R2, and stating in advance which predictors I expect to survive on a different sample.
+
+## Declaration of AI usage
+
+Declaration of AI Usage - mc649337 CHAN KA WAI
+Did I use an AI LLM? Yes
+Exact LLM used: DeepSeek-V4.1-Flash
+Web Browser used: Google Chrome
+
+Scope of use: I used DeepSeek-V4.1-Flash as a discussant while debugging notebook errors and while
+checking that the figure captions matched the numbers my own code produced. The analysis, the
+notebooks, the screenshots and the conclusions are my own work.
+
+## Responsible sharing
+
+No passwords, API keys, personal data or restricted datasets are included in this folder. The
+datasets are the course tutorial files, redistributed only so the notebooks can be re-run, with
+upstream sources and permissions listed above. The pair preliminary project uses published
+Cambridgeshire road-collision data.
