@@ -1,0 +1,24 @@
+# GitHub Pages build configuration.
+#
+# The showcase site only needs index.html, assets/ and the screenshot images.
+# Datasets, notebooks, archives and project files stay in the repository - they
+# are still browsable on github.com and are linked from the READMEs - but they
+# are excluded from the published site so that the deployment stays small and
+# finishes well inside the Pages deploy timeout.
+
+exclude:
+  - "*.zip"
+  - "**/*.zip"
+  - "**/*.csv"
+  - "**/*.xlsx"
+  - "**/*.ipynb"
+  - "**/*.json"
+  - "**/*.docx"
+  - "**/*.pdf"
+  - "**/*.h5"
+  - "**/*.hdf5"
+  - "**/*.py"
+  - "**/*.txt"
+  - "**/Datasets"
+  - "**/Jupyter Notebooks"
+  - "**/Project Spaces"
