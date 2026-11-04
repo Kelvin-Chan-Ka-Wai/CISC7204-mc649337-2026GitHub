@@ -47,10 +47,10 @@ Archive copy of the Practice 09 deliverable, kept in sync with the two public re
 
 ## Declaration of AI Usage
 
-- Student ID: mc64933
+- Student ID: mc649337
 - Student full name: CHAN KA WAI
 - Did I use an AI LLM? Yes
-- Exact LLM used: DeepSeek-V4.1-Flash 1017
+- Exact LLM used: DeepSeek-V4.1-Flash
 - Web browser used: Google Chrome "https://chat.genai.um.edu.mo/"
 - How it was used: reading tutorial pages, drafting and debugging notebook code, generating the
   documentation and performing the GitHub/GitHub Pages steps; all commands and outputs were
