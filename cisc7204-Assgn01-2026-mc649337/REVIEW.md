@@ -56,6 +56,8 @@ cannot reach or understand.
 
 ## Improvement committed in response
 
+The corrective commit is `92a86b2c2451be1f743f94c8c6dd4b7279368eaa` (*Fix the broken Assignment 01 link and document deployment testing on the live showcase*); the hash is recorded here so the feedback-to-commit chain stays resolvable even if the message is reworded.
+
 | Finding | Change | Commit message |
 |---|---|---|
 | 1 | Replaced the 404 directory link with the public GitHub tree URL for the Assignment 01 folder | `Fix the broken Assignment 01 link and document deployment testing on the live showcase` |
