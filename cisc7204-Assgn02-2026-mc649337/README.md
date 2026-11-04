@@ -7,8 +7,7 @@ every task with its output, and the Dash project spaces.
 
 - **Live showcase:** <https://kelvin-chan-ka-wai.github.io/CISC7204-mc649337-2026GitHub/>
 - **Repository:** <https://github.com/Kelvin-Chan-Ka-Wai/CISC7204-mc649337-2026GitHub>
-- **Project status:** complete and submitted (Assignment 02, due 2026OCT25). The BONUS portfolio
-  registration for this assignment was posted in the Class D registration forum on 2026NOV05.
+- **Project status:** completed and submitted (Assignment 02, due 2026OCT25). 
 
 ## What is in this folder
 
