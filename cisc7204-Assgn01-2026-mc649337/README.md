@@ -7,8 +7,7 @@ exploratory analysis, model development and model evaluation) and the pair preli
 
 - **Repository:** <https://github.com/Kelvin-Chan-Ka-Wai/CISC7204-mc649337-2026GitHub>
 - **Live showcase of Assignment 02:** <https://kelvin-chan-ka-wai.github.io/CISC7204-mc649337-2026GitHub/>
-- **Project status:** complete and submitted (Assignment 01, due 2026SEP20). The BONUS portfolio
-  registration for this assignment was posted in the Class D registration forum on 2026NOV05.
+- **Project status:** complete and submitted (Assignment 01, due 2026SEP20).
 
 ## What is in this folder
 
