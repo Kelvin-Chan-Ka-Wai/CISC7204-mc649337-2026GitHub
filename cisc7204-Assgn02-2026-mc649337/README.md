@@ -86,6 +86,14 @@ why - and no model or causal claim is made.
 The files are redistributed only so that the submitted notebooks and dashboards can be re-run. No
 restricted, licensed or personally identifying data are redistributed in this folder.
 
+## Review and deployment testing
+
+Two members of Class D tested the GitHub Pages deployment of this assignment: **WANG XIAOYANG
+(MC652114)** and **LUO JUNPENG (MC651023)**. Their findings - the student number rendering as
+`mc64933 7`, the broken directory links, the missing testing record and raw-filename `alt` text -
+and the commit that answers each one are recorded in [`REVIEW.md`](REVIEW.md). The assignment 01
+review used a different pair, so no member reviews both assignments.
+
 ## How to run it
 
 Requirements: Python 3.10+ with
