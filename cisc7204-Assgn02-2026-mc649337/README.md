@@ -7,7 +7,8 @@ every task with its output, and the Dash project spaces.
 
 - **Live showcase:** <https://kelvin-chan-ka-wai.github.io/CISC7204-mc649337-2026GitHub/>
 - **Repository:** <https://github.com/Kelvin-Chan-Ka-Wai/CISC7204-mc649337-2026GitHub>
-- **Project status:** completed and submitted (Assignment 02, due 2026OCT25). 
+- **Project status:** complete and submitted (Assignment 02, due 2026OCT25). The BONUS portfolio
+  registration for this assignment was posted in the Class D registration forum on 2026NOV05.
 
 ## What is in this folder
 
@@ -41,6 +42,32 @@ every task with its output, and the Dash project spaces.
 5. **Module 05** - the wildfire practice project (time series, distributions, pies, scatter and a
    regional folium map) and the final project (matplotlib/seaborn/folium charts for automobile sales
    and a two-report Plotly + Dash dashboard).
+
+## Skills demonstrated
+
+pandas reshaping (pivot, melt, groupby) · Matplotlib line, area, bar, pie and box plots ·
+seaborn regression, violin and heatmap charts · word clouds and waffle charts · folium dot-density,
+choropleth and marker maps · Plotly express and graph objects · Dash layouts, callbacks and
+multi-report dashboards · capturing reproducible screenshot evidence per task.
+
+## Visualisations
+
+Three figures from the modules; every task has its own screenshot under `Module 0X/Screen Shots/`.
+
+![Bar plot of immigration by source country](Module%2003/Screen%20Shots/M03_Lab01_28_Barplot.png)
+
+*Figure 1 - Module 03 bar plot: the ranking of source countries is dominated by a handful of
+origins, which is why the later waffle and word-cloud views use the same ranking.*
+
+![Flight delay dashboard](Module%2005/Screen%20Shots/M05_F2_dash_01.png)
+
+*Figure 2 - Module 05 final dashboard (Plotly + Dash): delay counts by hour and carrier, with the
+two report tabs that let a reader switch between the overview and the carrier detail.*
+
+![Practice dashboard for wildfire activity](Module%2005/Screen%20Shots/M05_P2_dash_01.png)
+
+*Figure 3 - Module 05 practice dashboard: burned area by month and region, showing the seasonal
+peak and the small number of regions that account for most of the total.*
 
 ## Research question
 
@@ -125,3 +152,35 @@ project spaces are started the same way (`Dash_wildfire.py`, `Dash_automobile.py
 Every task has its own screenshot in `Module 0X/Screen Shots/`. They are named after the task, so the
 order in the folder follows the order of the work in the notebook or Dash script. The dashboards were
 captured while the application was running in the browser.
+
+## Reflection (~200 words)
+
+Assignment 02 is where visualisation stopped being decoration for me. The same Canadian
+immigration data can be a line chart, an area chart, a waffle, a word cloud or a choropleth, and
+each one hides something the others show: the line chart makes the rise of Asia obvious but
+flattens the country mix, the waffle makes the ranking readable but loses time, and the map shows
+concentration but not trend. Building the Dash dashboards forced the point home, because a reader
+can filter the data and immediately expose a claim that only held for the default view. I also
+learned how much of the work is not the chart: naming screenshots so a reviewer can follow the
+notebook, keeping the project spaces runnable from a requirements file, and checking that a
+dashboard still says something useful when the dropdown is empty. My next improvement is to add
+linked views - brushing a region on the map to filter the trend chart - so the dashboard answers a
+question instead of presenting a menu of charts.
+
+## Declaration of AI usage
+
+Declaration of AI Usage - mc649337 CHAN KA WAI
+Did I use an AI LLM? Yes
+Exact LLM used: DeepSeek-V4.1-Flash
+Web Browser used: Google Chrome
+
+Scope of use: I used DeepSeek-V4.1-Flash as a discussant while debugging Dash callbacks and while
+checking that the figure captions matched the numbers my own code produced. The analysis, the
+notebooks, the screenshots and the conclusions are my own work.
+
+## Responsible sharing
+
+No passwords, API keys, personal data or restricted datasets are included in this folder. The
+datasets are the course tutorial files, redistributed only so the notebooks and dashboards can be
+re-run, with upstream sources and permissions listed above. The San Francisco incident extract is
+public open data and is used at city level, not per person.
