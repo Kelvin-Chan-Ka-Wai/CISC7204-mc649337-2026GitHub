@@ -7,6 +7,8 @@ every task with its output, and the Dash project spaces.
 
 - **Live showcase:** <https://kelvin-chan-ka-wai.github.io/CISC7204-mc649337-2026GitHub/>
 - **Repository:** <https://github.com/Kelvin-Chan-Ka-Wai/CISC7204-mc649337-2026GitHub>
+- **Project status:** complete and submitted (Assignment 02, due 2026OCT25). The BONUS portfolio
+  registration for this assignment was posted in the Class D registration forum on 2026NOV05.
 
 ## What is in this folder
 
@@ -40,6 +42,49 @@ every task with its output, and the Dash project spaces.
 5. **Module 05** - the wildfire practice project (time series, distributions, pies, scatter and a
    regional folium map) and the final project (matplotlib/seaborn/folium charts for automobile sales
    and a two-report Plotly + Dash dashboard).
+
+## Research question
+
+Each module answers one question about the same data story: what changes when the same result is
+shown as a time series, as a ranking, as a distribution and as a map? The modules build up the
+chart vocabulary (pandas, Matplotlib, seaborn, folium, Plotly, Dash) and end with two dashboards
+that let a reader explore the data instead of reading a static figure.
+
+## Key findings
+
+- **Modules 01-02:** immigration to Canada from Asia rises fastest across 1980-2013 while the
+  European share falls; the line, area and bar views each make a different part of that shift
+  readable.
+- **Module 03:** the waffle and word-cloud views show that a few source countries dominate the
+  totals, and the folium choropleth shows where those totals sit geographically.
+- **Module 04:** the flight-delay dashboard shows delay counts concentrating in particular hours
+  and carriers rather than spreading evenly across the day.
+- **Module 05:** the wildfire dashboard shows a strong seasonal pattern and a small number of
+  regions accounting for most of the burned area; the automobile-sales dashboard shows how mean
+  price and sales volume move in opposite directions across makes.
+
+The exact numbers are in the notebooks and in the task screenshots.
+
+## Limitations
+
+The labs are teaching exercises on fixed extracts: the police-incident file is a single year in a
+single city, the wildfire data cover one country, and the immigration file is a historical extract
+that stops in 2013. The dashboards are descriptive - they show what happened in these files, not
+why - and no model or causal claim is made.
+
+## Dataset sources and usage permissions
+
+| Dataset | Upstream source | Permission |
+|---|---|---|
+| `Canada.csv`, `Canada.xlsx` | course tutorial extract of Canadian immigration statistics | course material |
+| `Police_Department_Incidents_-_Previous_Year__2016_.csv` | DataSF, San Francisco Police Department incident reports (open data) | public open data |
+| `airline_data.csv` | course tutorial flight-delay sample | course material |
+| `Historical_Wildfires.csv` | course tutorial extract of Australian wildfire records | course material |
+| `automobile-sales.csv` | course tutorial automobile-sales sample | course material |
+| `us-states.json`, `world_countries.json` | public GeoJSON boundary files used for the choropleth and folium maps | public data |
+
+The files are redistributed only so that the submitted notebooks and dashboards can be re-run. No
+restricted, licensed or personally identifying data are redistributed in this folder.
 
 ## How to run it
 
